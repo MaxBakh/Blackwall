@@ -1,0 +1,73 @@
+.collab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    &_heading {
+        width: 89%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: start;
+    }
+
+    &_achives {
+        display: flex;
+
+
+        & h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 65px;
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        & span {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 24px;
+        }
+    }
+}
+
+.companies {
+
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 51px;
+
+    & .company {
+
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 69px;
+        height: 16px;
+        background-size: 69px 16px;
+
+    }
+
+    & .company:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    & #airbnb,
+    #nubspot,
+    #google,
+    #microsoft,
+    #walmart,
+    #fedex {
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
