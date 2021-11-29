@@ -1,0 +1,79 @@
+.collab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.collab_heading {
+  width: 89%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: start;
+}
+
+.collab_achives {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collab_achives h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.collab_achives span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0;
+  margin-bottom: 51px;
+}
+
+.companies .company {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 69px;
+  height: 16px;
+  background-size: 69px 16px;
+}
+
+.companies .company:nth-last-child(-n+2) {
+  display: none;
+}
+
+.companies #airbnb,
+.companies #nubspot,
+.companies #google,
+.companies #microsoft,
+.companies #walmart,
+.companies #fedex {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=collab.css.map */

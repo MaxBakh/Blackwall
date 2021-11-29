@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+
+    .container {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    @import 'header/header.scss';
+    @import 'collab/collab.scss';
+    @import 'feature/feature.scss';
+    @import 'section/mobile_section.scss';
+}
